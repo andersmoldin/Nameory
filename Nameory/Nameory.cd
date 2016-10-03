@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nameory.NameoryScraper">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAESAQAAAAAAEAAAAgBIEABIAAAAAAAIACAAAAg=</HashCode>
+      <FileName>NameoryScraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nameory.NameoryIO">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAEAAAAABIAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>NameoryScraper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nameory.Nameory">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Nameory.Nameory.GamePlay" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Nameory_Extended.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAGAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nameory_Extended.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nameory.Nameory_NewGame">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Nameory_NewGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

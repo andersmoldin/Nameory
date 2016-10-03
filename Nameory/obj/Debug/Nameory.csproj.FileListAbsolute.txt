@@ -1,0 +1,13 @@
+c:\Projects\Nameory\Nameory\bin\Debug\Nameory.exe.config
+C:\Projects\Nameory\Nameory\bin\Debug\Nameory.exe
+C:\Projects\Nameory\Nameory\bin\Debug\Nameory.pdb
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.Properties.Resources.resources
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.csproj.GenerateResource.Cache
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.exe
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.pdb
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.Nameory.resources
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.Nameory_NewGame.resources
+C:\Projects\Nameory\Nameory\obj\Debug\Nameory.csprojResolveAssemblyReference.cache
+C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.dll
+C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.pdb
+C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.xml
