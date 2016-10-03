@@ -1,2 +1,4 @@
 # Nameory
-Övningsspel för Academy
+## Övningsspel för Academy
+
+<a href="Nameory.exe">Ladda ner</a>
