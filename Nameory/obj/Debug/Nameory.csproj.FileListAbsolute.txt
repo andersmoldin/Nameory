@@ -11,3 +11,15 @@ C:\Projects\Nameory\Nameory\obj\Debug\Nameory.csprojResolveAssemblyReference.cac
 C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.dll
 C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.pdb
 C:\Projects\Nameory\Nameory\bin\Debug\HtmlAgilityPack.xml
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.csprojResolveAssemblyReference.cache
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.Nameory.resources
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.Nameory_NewGame.resources
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.Properties.Resources.resources
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.csproj.GenerateResource.Cache
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.exe
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\obj\Debug\Nameory.pdb
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\bin\Debug\Nameory.exe.config
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\bin\Debug\Nameory.exe
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\bin\Debug\Nameory.pdb
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lars\OneDrive\Dokument\GitHub\Nameory\Nameory\bin\Debug\Newtonsoft.Json.xml
