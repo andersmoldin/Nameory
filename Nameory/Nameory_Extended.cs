@@ -73,24 +73,10 @@ namespace Nameory
             // i framtiden med hjälp av nameoryIO).
             // Om bara en lista är vald plockas den ut.
             if (group == 1 || expert == true)
-            {
-                NameoryScraper nameoryScraper = new NameoryScraper(NameoryScraper.CheckUrl("http://academy.se/utbildningen/konsulter-java-ht16"), @"(?<url>http://academy.se/wp-content/uploads\/2016\/0[8-9]\/[A-Za-z0-9_]+.png)(?<crap>[a-z0-9_\<\=\""\>\s\/\.\-\:]+)(?<firstname>[A-Öa-öé]+) (?<lastname>[A-Öa-öé]+)(?<morecrap>[a-z0-9_\<\=\""\>\s\/\.\-\:]+)(?<bio>[^<]+)");
-
-                for (int i = 0; i < nameoryScraper.UrlsToImages.Length; i++)
-                {
-                    objects.Add(new NameoryObject(nameoryScraper.FirstNames[i], nameoryScraper.LastNames[i], nameoryScraper.UrlsToImages[i], nameoryScraper.Bios[i], nameoryScraper.Genders[i]));
-                }
-            }
+                objects = NameoryIO.GetList(1);
 
             if (group == 0 || expert == true)
-            {
-                NameoryScraper nameoryScraper = new NameoryScraper(NameoryScraper.CheckUrl("http://academy.se/utbildningen/konsulter-dotnet-ht16"), @"src=""(?<url>http://academy.se/wp-content/upload[^""]+)[^A-Z]+(?<firstname>[^ ]+) (?<lastname>[^<]+)[^A-Z]+(?<bio>[^\n]+)");
-
-                for (int i = 0; i < nameoryScraper.UrlsToImages.Length; i++)
-                {
-                    objects.Add(new NameoryObject(nameoryScraper.FirstNames[i], nameoryScraper.LastNames[i], nameoryScraper.UrlsToImages[i], nameoryScraper.Bios[i], nameoryScraper.Genders[i]));
-                }
-            }
+                objects.AddRange(NameoryIO.GetList(0));
 
         }
 
@@ -211,7 +197,7 @@ namespace Nameory
 
             // Slumpa plats på namnen
             threeNames = threeNames.OrderBy(a => Guid.NewGuid()).ToList();
-            
+
             // Skriv ut namnen
             nameButton1.Text = threeNames[0].FirstName;
             nameButton2.Text = threeNames[1].FirstName;
@@ -317,7 +303,7 @@ namespace Nameory
 
             // Öka på progressBar1 med ett.
             if (typeOfGame != GamePlay.Continuous)
-            progressBar1.Value = index + 1;
+                progressBar1.Value = index + 1;
         }
 
         // En vansinnigt användbar metod. Eller? Hmm.
